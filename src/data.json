@@ -1,0 +1,58 @@
+[
+  {
+    "name": "node_modules",
+    "type": "folder",
+    "id":"1",
+    "children": [
+      {
+        "name": "cache.js",
+        "type": "file",
+        "id":"2"
+      },
+      {
+        "name": "bin.js",
+        "type": "file",
+        "id":"3"
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "type": "folder",
+    "id":"4",
+    "children": [
+      {
+        "name": "app.js",
+        "type": "file",
+        "id":"5"
+      },
+      {
+        "name": "index.js",
+        "type": "file",
+        "id":"6"
+      },
+      {
+        "name": "Component",
+        "type": "folder",
+        "id":"7",
+        "children": [
+          {
+            "name": "Button.js",
+            "type": "file",
+            "id":"8"
+          },
+          {
+            "name": "Loading.js",
+            "type": "file",
+            "id":"9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "package.json",
+    "type": "file",
+    "id":"10"
+  }
+]
