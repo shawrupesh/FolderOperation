@@ -91,8 +91,10 @@ const DisplayList = ({ filedata, setFileData }) => {
               </span>
             )}
             <span key={item.id}>{item.name} </span>
-            <span>({item?.children?.length})</span>
+           
             {item.type === "folder" && (
+              <>
+               <span>({item?.children?.length})</span>
               <span
                 onClick={() => {
                   addNode(item?.id);
@@ -100,6 +102,8 @@ const DisplayList = ({ filedata, setFileData }) => {
               >
                 +
               </span>
+              </>
+              
             )}
             <span
               onClick={() => deleteNode(item.id)}
@@ -132,7 +136,7 @@ export default function App() {
   return (
     <>
       <div className="parent">
-        <h1>Files and Folder Mangement</h1>
+        <h1>File Explorer</h1>
       </div>
       <DisplayList filedata={filedata} setFileData={setFileData} />
     </>
