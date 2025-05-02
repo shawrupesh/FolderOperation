@@ -1,11 +1,40 @@
-.children{
-    margin-left: 10px;
-}
-.parent{
-    width: 300px;
+
+
+.chip-container{
+    width: fit-content;
     margin: auto;
-    padding: 5px;
+    margin-bottom: 10px;
 }
-.svg-down{
-    width: 20px;
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tags{
+    margin-right: 5px;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    margin-bottom: 15px;
+}
+.span-tag{
+    margin-right: 10px;
+    background-color: gray;
+    border-radius: 7px;
+    border: 1px solid black;
+width: fit-content;
+padding: 5px;
+
+
+}
+
+button{
+    background-color: gray;
+    border: none;
+    color: red;
+    margin-left: 5px;
+    cursor: pointer;
 }
